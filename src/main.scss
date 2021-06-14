@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import 'normalize.css';
+
+// ===========  UTILS block
+@import './sass/utils/variables';
+@import './sass/utils/mixins';
+@import './sass/utils/placeholders';
+@import '../node_modules/pnotify/dist/PNotifyBrightTheme.css';
+// ===========  BASE block
+@import './sass/base/common';
+@import './sass/base/visually-hidden';
+
+// ===========  COMPONENTS block
+@import './sass/components/gallery';
+@import './sass/components/lightbox';
+@import './sass/components/movieCard';
+@import './sass/components/spinner';
+@import './sass/components/pagination';
+@import './sass/components/button';
+@import './sass/components/buttton-modal';
+@import './sass/components/students-lightbox';
+@import '../node_modules/basiclightbox/src/styles/main.scss';
+@import './sass/components/microphone';
+@import './sass/components/filter';
+@import './sass/components/trailer';
+
+// ===========  LAYOUT block
+@import './sass/layout/header';
+@import './sass/layout/footer';
+
+// ===========  REGISTRATION block
+@import './sass/components/registration';

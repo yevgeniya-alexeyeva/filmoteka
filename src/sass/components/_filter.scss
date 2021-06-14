@@ -1,0 +1,75 @@
+
+.filter-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.filter-input {
+    border: 2px solid $color-accent-2;
+    border-radius: 5px;
+    background-color: transparent;
+    color: $color-darkest;
+    text-transform: uppercase;
+
+    &:hover {
+        border: 2px solid transparent;
+        background: transparent;
+        color: $color-darkest;
+    }
+}
+
+.filter-input:not(:last-child) {
+    margin-right: 14px;
+}
+@media screen and (min-width: $bp-mobile) and (max-width: 767px) {
+    .filter-text {
+        display: none;
+    }
+    .filter-input {
+        padding: 5px 6px;
+        width: 122px;
+        font-family: $font-family;
+        @include font(500, 12px, 14px);
+    }
+
+}
+@media screen and (min-width: $bp-tablet) and (max-width: 1023px) {
+    .filter-text {
+        margin-right: 20px;
+        font-family: $font-family;
+        @include font(500, 25px, 30px);
+        color: $color-darkest;
+    }
+    .filter-input {
+        margin-right: 20px;
+        padding: 8px 10px;
+        width: 144px;
+        font-family: $font-family;
+        @include font(500, 12px, 14px);
+    }
+}
+@media screen and (min-width: $bp-desktop) {
+    .filter-text {
+        margin-right: 40px;
+        font-family: $font-family;
+        @include font(500, 30px, 35px);
+        color: $color-darkest;
+    }
+    .filter-input {
+        margin-right: 20px;
+        padding: 8px 10px;
+        width: 144px;
+        font-family: $font-family;
+        @include font(500, 12px, 14px);
+
+        &:hover {
+            transform: scale(1.03) translateY(-4px);
+            @include transition(transform);
+        }
+    }
+}
+
+
