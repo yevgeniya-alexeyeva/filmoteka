@@ -18,7 +18,6 @@ My contribution to the project:
 Technology used:
 
 - HTML
-- CSS
 - SASS
 - Javascript
 - Webpack
