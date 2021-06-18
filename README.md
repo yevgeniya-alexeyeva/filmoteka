@@ -24,4 +24,4 @@ Technology used:
 - Webpack
 - NPM packages
 
-![Capture](./src/images/capture.png?raw=true 'Site preview')
+![Capture](./images/capture.png?raw=true 'Site preview')
